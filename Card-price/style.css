@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: -apple-system, Roboto, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(to left, rgb(203, 203, 211), rgb(211, 133, 211));
+    background-repeat: no-repeat;
+    height: 612px;
+}
+/*Container grid*/
+
+.container{
+    width: 960px;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*Introdução do card // titulo, subtitulo e paragrafo*/
+.introducao{
+    margin-top: 60px;
+    padding: 40px;
+}
+
+.introducao h1{
+    font-size: 24px;
+    color: #34B2AF;
+}
+
+.introducao h2{
+    font-size: 18px;
+    color: #C0DF40;
+    padding-top: 20px;
+}
+
+.introducao p{
+    font-size: 14px;
+    color: #CCBCBE;
+    line-height: 25px;
+    max-width: 480px;
+    padding-top: 10px;
+    
+}
+
+/*Card 1*/
+.card-1{
+    display: inline-block;
+    width: 480px;
+    background-color: #34B2AF;
+    border-radius: 0 0 0 8px;
+    color: #EAF2EC;
+
+}
+
+.card-1 h3{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.card-1 span{
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-1 span p{
+    font-size: 12px;
+    display: inline-block;
+}
+
+.description-product{
+    font-size: 12px;
+    padding: 10px 0 0 40px;
+
+}
+
+.card-1 button{
+    box-shadow: 0 0 10px rgb(0, 0, 000, 30%);
+    padding: 15px 80px;
+    margin: 30px 120px;
+    border-radius: 8px;
+    border: none;
+    clear: both;
+    background: #C0DF40;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+
+.card-1 button:hover{
+    background-color: #3BC4C0;
+    color: #000000;
+}
+
+/*Card 2*/
+
+.card-2{
+    float: right;
+    width: 480px;
+    background-color: #3BC4C0;
+    border-radius: 0 0 8px 0;
+    color: #EAF2EC;
+    height: 237px;
+
+}
+
+.card-2 h3{
+    font-size: 18px;
+    padding: 30px 0 0 40px;
+
+}
+
+.card-2 p{
+    max-width: 180px;
+    padding: 20px 0 0px 40px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+/*Mobile*/
+
+@media (max-width: 767px){
+    .container{
+        max-width: 300px;
+
+    }
+
+    .card-1{
+        max-width: 300px;
+        border-radius: 0;
+    }
+    .card-1 button{
+        width: 220px;
+        margin: 30px 42px;
+    }
+
+    .card-2{
+        border-radius: 0 0 8px 8px;
+        max-width: 300px;    
+        margin-bottom: 60px;
+    }
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 959px){
+    .container{
+        width: 768px;
+    }
+
+    .card-1{
+        width: 384px;
+    }
+
+    .card-1 button{
+        width: 220px;
+        margin: 30px 78px;
+    }
+
+    .card-2{
+        width: 384px;
+        height: 237px;
+    }
+}
