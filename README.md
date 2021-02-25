@@ -1,2 +1,4 @@
 # Card-Price
-Card-Price responsivo, feito atráves dos desafios FrontendMentor.io
+🚀 Desafio realizado atráves do front-endmentor.io
+
+**Falta deixar responsivo*
